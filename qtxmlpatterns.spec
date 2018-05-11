@@ -4,12 +4,12 @@
 #
 Name     : qtxmlpatterns
 Version  : 5.10.1
-Release  : 4
+Release  : 5
 URL      : http://download.qt.io/official_releases/qt/5.10/5.10.1/submodules/qtxmlpatterns-everywhere-src-5.10.1.tar.xz
 Source0  : http://download.qt.io/official_releases/qt/5.10/5.10.1/submodules/qtxmlpatterns-everywhere-src-5.10.1.tar.xz
 Summary  : No detailed summary available
 Group    : Development/Tools
-License  : GFDL-1.3 GPL-2.0 GPL-3.0 LGPL-3.0
+License  : GFDL-1.3 GPL-2.0 GPL-3.0 LGPL-3.0 W3C
 Requires: qtxmlpatterns-bin
 Requires: qtxmlpatterns-lib
 BuildRequires : cmake
@@ -20,6 +20,7 @@ BuildRequires : pkgconfig(Qt5Test)
 BuildRequires : pkgconfig(Qt5Widgets)
 BuildRequires : pkgconfig(Qt5Xml)
 BuildRequires : qtbase-dev
+BuildRequires : qtbase-extras
 
 %description
 XQuery queries and XPath expressions can be used in Qt with the
